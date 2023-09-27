@@ -5,8 +5,8 @@ const CustomLogger = require('./CustomLogger');
 
 const app = express();
 
-const httpServer = app.listen(3000, () => {
-    console.log(`Example app listening on port ${3000}`)
+const httpServer = app.listen(4000, () => {
+    console.log(`Example app listening on port ${4000}`)
 })
 
 app.use('/api/iot', (req, res) => {
